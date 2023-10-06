@@ -126,7 +126,7 @@
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image:url(img/new-york-city-aesthetic-theme-1c8audmlnondsmc7.jpg);
+  background-image:url(img/city2.jpg);
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -140,7 +140,7 @@
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url(https://images.unsplash.com/photo-1432163230927-a32e4fd5a326?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
+  background-image: url(img/skyscraper.jpg);
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -149,12 +149,12 @@
   background-position: center center;
 }
 #parallax-world-of-ugg .parallax-three {
-  padding-top: 200px;
+  padding-top: 200px; 
   padding-bottom: 200px;
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url(https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=);
+  background-image: url(img/bridge.jpeg);
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -303,3 +303,74 @@
 .col-lg-3 col-md-4 col-sm-6 col-xs-12 {
   margin-right: 0px;
 }
+
+
+
+/* beginning of email hover taken from: https://www.sliderrevolution.com/resources/css-link-hover-effects/ */
+.container {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #fafafa;
+  padding: 50px;
+  box-shadow: 0 0 30px 30px #000;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+p { text-align: center; }
+.link {
+  /* RESET */
+  text-decoration: none;
+  line-height: 1;
+  
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  padding: 5px 5px;
+  overflow: hidden;
+  color: #333;
+  vertical-align: bottom;
+  transition: color .3s ease-out;
+}
+
+.link::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  transform: translateY(calc(100% - 2px));
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);
+  transition: transform .25s ease-out;
+}
+
+.link:hover { 
+  color: #fff; 
+}
+.link:hover::before {
+  transform: translateY(0);
+  transition: transform .25s ease-out;
+}
+
+.credits {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 20px;
+  background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);
+  text-align: center;
+  font-size: 10px;
+  line-height: 20px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.credits > a {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1px;
+}
+/* end of email hover */
