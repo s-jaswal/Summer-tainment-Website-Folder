@@ -11,6 +11,21 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      .row {
+        display: flex;
+      }
+      
+      /* Create three equal columns that sits next to each other */
+      .column {
+        flex: 33.33%;
+        padding: 5px;
+      }
+      </style>
   </head>
 
   <body>
@@ -42,11 +57,24 @@
           </p>
           <p class="line-break margin-top-10"></p>
           <p class="margin-top-10">
-            It was extremely hot but it was nice to walk over 10 miles while
-            observing NYC. The metro station trains were extremely crowded and
-            getting around places was exhausting and exhilaring at the same
-            time. I think we were running around so much that we forgot to eat
-            lunch.
+            <ul>
+
+              <li>In the morning we took a Ferry to Staten Island - The Staten Island Ferry is a popular 
+                transportation option in NYC. It provides scenic views of the Statue of Liberty, Ellis Island, and the Manhattan 
+                skyline.
+              </li>
+              
+              <li>We visited a bunch of museums like the Vanderilt Museum: It is the house of extensive collections of art, marine 
+                specimens, and cultural artifacts from around the world. It offers visitors a glimpse into the life and interests of
+                the Vanderbilt family. 
+              </li>
+              
+              <li>In the night, we visited the Edge: The Edge is a prominent attraction in NYC, an observation deck located 
+                in Hudson Yards. One one of the most distinctive features is a triangular glass floor that extxends 80 feet 
+                out from the building, allowing visitors to look directly down to the street below. 
+              </li>
+              
+              </ul>
           </p>
         </div>
       </section>
@@ -56,32 +84,46 @@
           <h2>IMAGES</h2>
         </div>
       </section>
-            <!-- used cool hovers website: https://miketricking.github.io/bootstrap-image-hover/ -->
+            
       <section>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-          <div class="hovereffect">
-              <img class="img-responsive w-100" src="img/IMG-4901.jpg" alt="">
-              <img class="img-responsive w-100" src="img/IMG-2420.jpg" alt="">
-
-              <div class="overlay">
-                 <h2>THE CITY</h2>
-                 <a class="info" href="#">We visited the edge: here is a picture from the view below -we look like ants-</a>
-              </div>
+        <div class="row">
+          <div class="column">
+            <img src="img/IMG-2420.jpg" alt="Snow" style="width:100%">
           </div>
-      </div>
-      
-      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-        <div class="hovereffect">
-          <img class="img-responsive w-100" src="img/IMG-2415.jpg" alt="">
-          <div class="overlay">
-            <h2>THE CITY</h2>
-            <a class="info" href="#">We visited the edge: here is a picture from the view below -we look like ants-</a>
-         </div>
-
-
+          <div class="column">
+            <img src="img/IMG-4901.jpg" alt="Forest" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="img/IMG-2415.jpg" alt="Mountains" style="width:100%">
+          </div>
         </div>
 
-      </div>
+        <div class="row">
+          <div class="column">
+            <img src="img/IMG-4870.jpg" alt="Snow" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="img/IMG-4882.jpg" alt="Forest" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="img/IMG-4895.jpg" alt="Mountains" style="width:100%">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <img src="img/06cd780b-5246-4f75-919c-3e1d0c60a842.jpg" alt="Snow" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="img/IMG-5417.jpg" alt="Forest" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="img/f31dbbba-13fc-4e34-aa4b-f59159b9599a.jpg" alt="Mountains" style="width:100%">
+          </div>
+        </div>
+        
+      
+      
       </section>
       <!-- cool hovers end -->
 
@@ -100,6 +142,9 @@
             exhausting and exhilaring at the same time. I think we were running
             around so much that we forgot to eat lunch.
           </p>
+
+          <p class="margin-top-10"></p>
+
           <p class="line-break margin-top-10"></p>
           <p class="margin-top-10">Food: 8/10</p>
           <p class="margin-top-10">Views: 11/10</p>
@@ -110,7 +155,7 @@
 
     <section> 
       <div class="credits">
-        <a href="https://manhattanite.co/beginners-guide-nyc/" target="_blank">insta: @jaswal.saanvi</a> &bull; <b>LEARN MORE ABOUT NYC</b></div>
+        <a href="https://manhattanite.co/beginners-guide-nyc/" target="_blank">Visiting NYC for the first time?</a> &bull; <b>LEARN MORE ABOUT NYC</b></div>
      <div class="container">
         <p>About the creator: 
           Hi! I am Saanvi Jaswal, a junior in high school. I am part of the Web Design program where we code websites using HTML, CSS, Boostrap, etc. 

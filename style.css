@@ -154,7 +154,7 @@
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url(img/bridge.jpeg);
+  background-image: url(img/wowaaaa.jpg);
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -374,3 +374,8 @@ p { text-align: center; }
   letter-spacing: 1px;
 }
 /* end of email hover */
+
+img {
+  width: 400px;
+  height: 400px;
+}
